@@ -8,7 +8,7 @@ function MarkdownPreview({ markdown }: { markdown: string }) {
 
     return (
         <div>
-            <h2>Preview</h2>
+            <h2 className="preview_label">Preview</h2>
             <div id="preview" dangerouslySetInnerHTML={{ __html: marked.parse(markdown) }} />
         </div>
     );

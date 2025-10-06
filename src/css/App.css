@@ -17,7 +17,17 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-
+#editor {
+  width: 80vw;
+  height: 50vw;
+}
+.editor_label {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.preview_label {
+  font-size: 2rem;
+}
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
